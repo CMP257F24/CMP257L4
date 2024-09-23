@@ -1,0 +1,95 @@
+body {
+  background-color: #f2e8c6;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  /*---comment ---
+ margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+  place-content: center;
+ */
+}
+
+h1 {
+  background-color: #982b1c;
+  font-size: 5rem;
+  text-align: center;
+}
+h2 {
+  background-color: #982b1c;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* we can do header 1 and header 2*/
+
+form {
+  background-color: #dad4b5;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid #982b1c;
+}
+
+footer {
+  background-color: #7f3c3c;
+}
+
+#radiostyle {
+  background-color: #805454;
+  padding: 3px 6px;
+}
+#radiostyle:hover {
+  background-color: #e9d6d6;
+  padding: 2px 5px;
+}
+.radioclass {
+  margin: 0.4rem;
+}
+#eventstyle {
+  background-color: #ab7070;
+  padding: 3px 6px;
+}
+#eventstyle:hover {
+  background-color: #e9d6d6;
+  padding: 2px 5px;
+}
+
+.info {
+  padding: 1rem;
+}
+
+#required-info {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#Descr {
+  background-color: #c7a195;
+  margin-left: 5%;
+  margin-top: 11%;
+  margin-bottom: 5%;
+}
+
+fieldset {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+article {
+  margin-left: 5%;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+navbar {
+  max-height: 200px;
+}
+
+.nav-color {
+  background-color: #805454;
+}

@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Event Submission</title>
+  </head>
+
+  <body>
+    <h1>Event Submission</h1>
+
+    <nav class="navbar navbar-expand-lg bg-secondary pt-auto pb-auto">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NAVBAR</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Homepage.html"
+                >Homepage</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="EventSubmission.html"
+                >Event Submission</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h3>Organizer Contact Information:</h3>
+    <p>
+      Nourhan Ibrahim - Zaid Dar <br />g00091476@aus.edu - b00096168@aus.edu
+    </p>
+    <form>
+      <div class="row">
+        <div id="required-info" class="col col-lg-4 col-md-6 col-sm-12">
+          <label class="form-label">Event Name</label>
+          <input required class="info form-control" /><br />
+          <br />
+          <label class="form-label">Date</label>
+          <input required type="date" class="info form-control" /><br />
+          <br />
+          <label class="form-label">Time</label>
+          <input required type="time" class="info form-control" /><br />
+          <br />
+          <label class="form-label">Location</label>
+          <input required class="info form-control" /><br />
+          <br />
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <label id="Descr" class="form-label">Brief Description</label>
+          <textarea class="form-control"></textarea><br />
+
+          <br />
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <fieldset class="form-check">
+            <legend id="radiostyle" class="legendhover">
+              Is this event open to all students?
+            </legend>
+            <br />
+            <input
+              type="radio"
+              id="Yes"
+              name="YN"
+              value="Yes"
+              class="radioclass form-check-input"
+            />
+            <label for="html" class="form-check-label">Yes</label><br />
+            <input
+              type="radio"
+              id="No"
+              name="YN"
+              value="No"
+              class="radioclass form-check-input"
+            />
+            <label for="css" class="form-check-label">No</label><br />
+          </fieldset>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <fieldset class="form-check">
+            <legend id="eventstyle" class="legendhover">
+              What type of event is this?
+            </legend>
+            <br />
+            <input type="checkbox" id="WorkShop" class="form-check-input" />
+            <label for="WorkShop" class="form-check-label">WorkShop</label>
+
+            <br />
+            <input type="checkbox" id="Social" class="form-check-input" />
+            <label for="Social" class="form-check-label">Social</label>
+
+            <br />
+            <input type="checkbox" id="Sports" class="form-check-input" />
+            <label for="Sports" class="form-check-label">Sports</label>
+
+            <br />
+            <input type="checkbox" id="Academic" class="form-check-input" />
+            <label for="Academic" class="form-check-label">WorkShop</label>
+
+            <br />
+            <input type="checkbox" id="Other" class="form-check-input" />
+            <label for="WorkShop" class="form-check-label">Other</label>
+          </fieldset>
+        </div>
+        <br />
+
+        <br />
+        <br />
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <article>
+            <label for="dept">Select the department hosting the event</label>
+            <select id="dept" class="form-select">
+              <option value="CEN">CEN</option>
+              <option value="SBA">SBA</option>
+              <option value="CAS">CAS</option>
+              <option value="CAAD">CAAD</option>
+              <option value="OSA">OSA</option>
+              <option value="Other">Other</option>
+            </select>
+          </article>
+        </div>
+
+        <br />
+        <br />
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <button
+            type="submit"
+            value="Submit"
+            class="btn btn-outline-primary btn-lg"
+            id="btn1"
+          >
+            Submit
+          </button>
+          <br />
+          <button
+            type="reset"
+            value="Reset"
+            class="btn btn-outline-danger btn-lg"
+            id="btn2"
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+    </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
